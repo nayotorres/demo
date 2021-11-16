@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.torres.demo.ui.HomeFragment"
+        android:label="Peliculas"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.torres.demo.ui.PhotosFragment"
+        android:label="Fotos"
+        tools:layout="@layout/fragment_photos" />
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.torres.demo.ui.LocationFragment"
+        android:label="Ubicaciones"
+        tools:layout="@layout/fragment_location" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1001541528883",
+    "project_id": "fir-c8a46",
+    "storage_bucket": "fir-c8a46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001541528883:android:2ad199df72f9531e6ea246",
+        "android_client_info": {
+          "package_name": "com.torres.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001541528883-7o81bb7p4lhlg4vmi8t29mg3fv05fuef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABCRw5feKr0jTm0DNKp573hn-6ghhjeRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001541528883-7o81bb7p4lhlg4vmi8t29mg3fv05fuef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

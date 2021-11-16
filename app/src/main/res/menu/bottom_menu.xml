@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/photosFragment"
+        android:icon="@drawable/ic_image"
+        android:title="Fotos" />
+
+    <item
+        android:id="@+id/locationFragment"
+        android:icon="@drawable/ic_location"
+        android:title="Ubicaciones" />
+</menu>

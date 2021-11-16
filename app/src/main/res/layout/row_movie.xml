@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:shapeAppearanceOverlay="@style/My.ShapeAppearanceOverlayCard.TopCorners"
+    app:cardBackgroundColor="@color/white"
+    app:cardUseCompatPadding="true"
+    android:elevation="@dimen/medium">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="2dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_movie"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="center"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/medium_txtsize"/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="3"
+            android:textColor="@color/medium_grey"
+            android:textSize="@dimen/small_txtsize"
+            android:ellipsize="end"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/medium_grey"
+            android:textSize="@dimen/small_txtsize"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</com.google.android.material.card.MaterialCardView >
